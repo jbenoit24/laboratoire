@@ -23,7 +23,9 @@ function interval(){
         console.log(i);
         document.getElementById("img" + i.toString()).style.background = "#00559D";
         var precedent = i-1;
+
         document.getElementById("img" + precedent.toString()).style.background = "#00B3E6";
+
 
     }else{
         i=0;
