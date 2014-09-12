@@ -10,7 +10,8 @@ var images = ["cascades.jpg","Arbres_en_fleurs.jpg","automne.jpg","lac.jpg","pay
 
 var i = 0;
 
-setInterval(function() {interval()}  , 2500);
+setInterval(function() {interval()}  , 2000);
+
 
 
 console.log(i);
